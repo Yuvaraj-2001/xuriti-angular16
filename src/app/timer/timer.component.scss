@@ -1,0 +1,29 @@
+.button-set-flex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.icon-with-text{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #293a5c;
+    background-color: #fff;
+    border: none;
+}
+.active-button{
+    background-color: #f9f9fb;
+    font-size: 14px;
+    font-weight: 800;
+    // border: 1px solid #293a5c;
+}
+
+::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    border-color: #1f9136;
+}
+
+::ng-deep .p-tabview .p-tabview-panels{
+    padding: 0px;
+    padding-top: 10px;
+}

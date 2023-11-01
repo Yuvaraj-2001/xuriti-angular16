@@ -1,0 +1,51 @@
+<hr>
+<br>
+<div class="container row">
+    <div class="col-lg-6">
+        <div class="card">
+           Group By: <p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name"></p-dropdown>
+
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>User</th>
+                    <th>Inc/Dec</th>
+                    <th>Entry</th>
+                    <th>Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Aquila</td>
+                    <td>15%</td>
+                    <td>1:23:17</td>
+                    <td>{{1000 | currency:'USD' }}</td>
+                  </tr>
+                  <tr>
+                    <td>Yuvaraj</td>
+                    <td>25%</td>
+                    <td>1:23:17</td>
+                    <td>{{1000 | currency:'USD' }}</td>
+                  </tr>
+                  <tr>
+                    <td>Chandra Kala</td>
+                    <td>40%</td>
+                    <td>1:23:17</td>
+                    <td>{{1000 | currency:'USD' }}</td>
+                  </tr>
+                  <tr>
+                    <td>Headwin</td>
+                    <td>20%</td>
+                    <td>1:23:17</td>
+                    <td>{{1000 | currency:'USD' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        
+    </div>
+    <div class="col-lg-6">
+        <div #piechart></div>
+    </div>
+
+</div>

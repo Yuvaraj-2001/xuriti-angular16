@@ -1,0 +1,22 @@
+.price-section-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.tiny-heading{
+    color: #9eb2da;
+}
+.time-text{
+    font-size: 24px;
+    font-weight: 800;
+    color: #293a5c;
+
+}
+.border-left-price{
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+// .border-bottom-1px{
+//     padding-bottom: 20px;
+//     border-bottom: 1px solid #ddd;
+// }

@@ -1,0 +1,47 @@
+<div class="container">
+    <br>
+    <hr>
+    <div class="price-section-container">
+       <div class="price-section-content">
+         <span class="tiny-heading">Total time</span>
+         <p class="time-text">36:00:32</p>
+         <span class="tiny-heading">+ 20% Compared last week</span>
+       </div>
+
+       <div class="price-section-content border-left-price">
+        <span class="tiny-heading">Total time</span>
+        <p class="time-text">36:00:32</p>
+        <span class="tiny-heading">- 20% Compared last week</span>
+      </div>
+
+      <div class="price-section-content border-left-price">
+        <span class="tiny-heading">Total time</span>
+        <p class="time-text">36:00:32</p>
+        <span class="tiny-heading">+ 20% Compared last week</span>
+      </div>
+    </div>
+    <hr>
+    <div class="price-section-container border-bottom-1px">
+        <div class="price-section-content">
+          <span class="tiny-heading">Total time</span>
+          <p class="time-text">{{ 1762083 | currency:'EUR' }}</p>
+          <span class="tiny-heading">+ 20% Compared last week</span>
+        </div>
+ 
+        <div class="price-section-content border-left-price">
+         <span class="tiny-heading">Total time</span>
+         <p class="time-text">{{ 17698 | currency:'INR' }}</p>
+         <span class="tiny-heading">- 20% Compared last week</span>
+       </div>
+ 
+       <div class="price-section-content border-left-price">
+         <span class="tiny-heading">Total time</span>
+         <p class="time-text">{{ 17698 | currency:'USD' }}</p>
+         <span class="tiny-heading">+ 20% Compared last week</span>
+       </div>
+     </div>
+     <hr>
+
+     <div #barGraph></div>
+</div>
+
